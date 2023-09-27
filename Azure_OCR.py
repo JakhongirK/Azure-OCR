@@ -4,12 +4,12 @@ from docx import Document
 from docx.shared import Inches
 import requests
 
-subscription_key = "B0faa09900954b4ab9eee55e133399cc"
-endpoint = "https://bennyocr.cognitiveservices.azure.com/"
+subscription_key = "API"
+endpoint = "https://ENDPOINT.cognitiveservices.azure.com/"
 ocr_url = endpoint + "vision/v3.2/ocr"
 
-folder_path = "C:\\Users\\Odooadmin\\Documents\\OneDriveNew\\JpsImageforJak(Coco)"
-output_folder = "C:\\Users\\Odooadmin\\Documents\\outputOneDriveNew"
+folder_path = "C:\\Users\\"
+output_folder = "C:\\Users\\"
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
